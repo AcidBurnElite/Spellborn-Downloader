@@ -115,6 +115,14 @@ namespace Downloader
             DownloadsAltCient.Add(@"http://www.spellborn.eu/Spellborn%20Storage/Clients/0.9.0.0/tcos_eu_0.9.0.0_setup-1c.bin");
             DownloadsAltCient.Add(@"http://www.spellborn.eu/Spellborn%20Storage/Clients/0.9.0.0/tcos_eu_0.9.0.0_setup.exe");
             DownloadsAltLauncher.Add(@"http://www.spellborn.eu/Spellborn%20Storage/Launcher/Launcher.zip");
+            /*
+            MessageBox.Show(Environment.GetFolderPath(Environment.SpecialFolder.CommonApplicationData));
+            MessageBox.Show(Environment.GetFolderPath(Environment.SpecialFolder.CommonPrograms));
+            MessageBox.Show(Environment.GetFolderPath(Environment.SpecialFolder.CommonStartMenu));
+            MessageBox.Show(Environment.GetFolderPath(Environment.SpecialFolder.Programs));
+            MessageBox.Show(Environment.GetFolderPath(Environment.SpecialFolder.StartMenu));
+            */
+
         }
 
 #endregion
@@ -1006,9 +1014,10 @@ namespace Downloader
                 backgroundWorker2.ReportProgress(90);
                 UnzipLauncher(selectedPath, SBInstallPath);
                 string LauncherExePath = SBInstallPath + @"\bin\client";
-                MessageBox.Show("Spellborn Launcher" + Environment.NewLine + Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + Environment.NewLine + LauncherExePath + @"\\SpellbornLauncher.exe" + Environment.NewLine + LauncherExePath);
+                //MessageBox.Show("Spellborn Launcher" + Environment.NewLine + Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + Environment.NewLine + LauncherExePath + @"\\SpellbornLauncher.exe" + Environment.NewLine + LauncherExePath);
                 //CreateShortcut("Spellborn Launcher", Environment.GetFolderPath(Environment.SpecialFolder.Desktop), SBInstallPath + @"bin\client\SpellbornLauncher.exe",LauncherExePath);
                 CreateShortcut("Spellborn Launcher", Environment.GetFolderPath(Environment.SpecialFolder.Desktop), LauncherExePath + @"\\SpellbornLauncher.exe", LauncherExePath);
+                //CreateShortcut("Spellborn Launcher", Environment.GetFolderPath(Environment.SpecialFolder.StartMenu)+@"\\Programs\\The Chronicles of Spellborn", LauncherExePath + @"\\SpellbornLauncher.exe", LauncherExePath);
                 backgroundWorker2.ReportProgress(100);
             }
 
@@ -1017,7 +1026,9 @@ namespace Downloader
                 //MessageBox.Show("selectedPath:" + selectedPath + Environment.NewLine);
                 UnzipLauncher(selectedPath, selectedPath);
                 string LauncherExePath=selectedPath+ @"bin\client";
+                //MessageBox.Show(Environment.GetFolderPath(Environment.SpecialFolder.Programs) + Environment.NewLine + @"\Programs\The Chronicles of Spellborn" + Environment.NewLine + Environment.GetFolderPath(Environment.SpecialFolder.StartMenu) + @"\Programs\The Chronicles of Spellborn");
                 CreateShortcut("Spellborn Launcher", Environment.GetFolderPath(Environment.SpecialFolder.Desktop), selectedPath + @"bin\client\SpellbornLauncher.exe",LauncherExePath);
+                //CreateShortcut("Spellborn Launcher", Environment.GetFolderPath(Environment.SpecialFolder.CommonPrograms) + @"\The Chronicles of Spellborn", LauncherExePath + @"\SpellbornLauncher.exe", LauncherExePath);
                 backgroundWorker2.ReportProgress(100);
             }
         }
