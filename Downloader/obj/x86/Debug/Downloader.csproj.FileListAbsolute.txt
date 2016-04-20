@@ -1,0 +1,9 @@
+D:\PROJECTS\TESTS\Downloader\Downloader\bin\x86\Debug\Downloader.exe.config
+D:\PROJECTS\TESTS\Downloader\Downloader\bin\x86\Debug\Downloader.exe
+D:\PROJECTS\TESTS\Downloader\Downloader\bin\x86\Debug\Downloader.pdb
+D:\PROJECTS\TESTS\Downloader\Downloader\obj\x86\Debug\Downloader.Form1.resources
+D:\PROJECTS\TESTS\Downloader\Downloader\obj\x86\Debug\Downloader.Properties.Resources.resources
+D:\PROJECTS\TESTS\Downloader\Downloader\obj\x86\Debug\Downloader.csproj.GenerateResource.Cache
+D:\PROJECTS\TESTS\Downloader\Downloader\obj\x86\Debug\Downloader.exe
+D:\PROJECTS\TESTS\Downloader\Downloader\obj\x86\Debug\Downloader.pdb
+D:\PROJECTS\TESTS\Downloader\Downloader\obj\x86\Debug\Downloader.csprojResolveAssemblyReference.cache

@@ -1,0 +1,12 @@
+D:\PROJECTS\TESTS\Downloader\Downloader\bin\Release\Downloader.exe.config
+D:\PROJECTS\TESTS\Downloader\Downloader\bin\Release\Downloader.exe
+D:\PROJECTS\TESTS\Downloader\Downloader\bin\Release\Downloader.pdb
+D:\PROJECTS\TESTS\Downloader\Downloader\obj\Release\Downloader.csprojResolveAssemblyReference.cache
+D:\PROJECTS\TESTS\Downloader\Downloader\obj\Release\Interop.IWshRuntimeLibrary.dll
+D:\PROJECTS\TESTS\Downloader\Downloader\obj\Release\Interop.Shell32.dll
+D:\PROJECTS\TESTS\Downloader\Downloader\obj\Release\Downloader.csproj.ResolveComReference.cache
+D:\PROJECTS\TESTS\Downloader\Downloader\obj\Release\Downloader.Form1.resources
+D:\PROJECTS\TESTS\Downloader\Downloader\obj\Release\Downloader.Properties.Resources.resources
+D:\PROJECTS\TESTS\Downloader\Downloader\obj\Release\Downloader.csproj.GenerateResource.Cache
+D:\PROJECTS\TESTS\Downloader\Downloader\obj\Release\Downloader.exe
+D:\PROJECTS\TESTS\Downloader\Downloader\obj\Release\Downloader.pdb
